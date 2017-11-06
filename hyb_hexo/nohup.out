@@ -1,3 +1,10 @@
 (node:4003) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:5028) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+WARN  No layout: index.html
+WARN  No layout: index.html
+WARN  No layout: index.html
+WARN  No layout: index.html
