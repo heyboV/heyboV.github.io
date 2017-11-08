@@ -169,6 +169,199 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Ubuntu-16-0-4配置Shadowsocks" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/11/08/Ubuntu-16-0-4配置Shadowsocks/">Ubuntu 16.0.4配置服务端Shadowsocks</a>
+    </h1>
+  
+
+        
+        <a href="/2017/11/08/Ubuntu-16-0-4配置Shadowsocks/" class="archive-article-date">
+  	<time datetime="2017-11-08T04:59:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h6 id="更新软件及软件列表"><a href="#更新软件及软件列表" class="headerlink" title="更新软件及软件列表"></a>更新软件及软件列表</h6><pre><code>sudo apt-get update &amp;&amp; sudo apt-get -y upgrade
+</code></pre><h6 id="安装python-pip"><a href="#安装python-pip" class="headerlink" title="安装python-pip"></a>安装python-pip</h6><pre><code>sudo apt-get install python-pip
+</code></pre><h6 id="安装shadowsocks"><a href="#安装shadowsocks" class="headerlink" title="安装shadowsocks"></a>安装shadowsocks</h6><pre><code>sudo pip install shadowsocks
+</code></pre><h6 id="编辑配置文件"><a href="#编辑配置文件" class="headerlink" title="编辑配置文件"></a>编辑配置文件</h6><pre><code>sudo vi /etc/shadowsocks.json
+
+{
+ &quot;server&quot;:&quot;your server IP&quot;,
+ &quot;server_port&quot;:a unused port number,
+ &quot;local_port&quot;:1080,
+ &quot;password&quot;:&quot;you password&quot;,
+ &quot;timeout&quot;:600,
+ &quot;method&quot;:&quot;aes-256-cfb&quot;
+ }
+</code></pre><h6 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h6><pre><code>sudo ssserver -c /etc/shadowsocks.json -d start
+</code></pre><h6 id="配置shadowsocks自启动"><a href="#配置shadowsocks自启动" class="headerlink" title="配置shadowsocks自启动"></a>配置shadowsocks自启动</h6><pre><code>sudo vi /etc/rc.local
+## add
+sudo ssserver -c /etc/shadowsocks.json -d start
+</code></pre><p>That is all.</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">ss</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">shadowsocks</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">ubuntu</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/11/08/Ubuntu-16-0-4配置Shadowsocks/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-我的Hexo配置过程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/11/08/我的Hexo配置过程/">Hexo</a>
+    </h1>
+  
+
+        
+        <a href="/2017/11/08/我的Hexo配置过程/" class="archive-article-date">
+  	<time datetime="2017-11-08T04:28:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="入坑"><a href="#入坑" class="headerlink" title="入坑"></a>入坑</h2><p>按照网上的教程在一台vps上的Ubuntu16.0.04部署了我的Hexo。</p>
+<ol>
+<li>安装git</li>
+<li>安装nodejs</li>
+<li>安装配置hexo</li>
+<li>配置githup pages,域名</li>
+</ol>
+<p>When everything is down, 突然发现一个问题，hexo只是把生成的静态文件给同步到github上了，我原想把整个hexo给同步的，于是推倒重建。</p>
+<h2 id="步入正题"><a href="#步入正题" class="headerlink" title="步入正题"></a>步入正题</h2><p>然后，别人已经写了，所以我撤了。</p>
+<ul>
+<li><a href="https://www.zhihu.com/question/21193762/answer/79109280" target="_blank" rel="external">某乎</a></li>
+<li><a href="http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" target="_blank" rel="external">hexo</a></li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/11/08/我的Hexo配置过程/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Rewrither" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -723,6 +916,22 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">life</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ss</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">shadowsocks</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">ubuntu</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
             
             <div class="clearfix"></div>
