@@ -8,3 +8,229 @@ WARN  No layout: index.html
 WARN  No layout: index.html
 WARN  No layout: index.html
 WARN  No layout: index.html
+(node:2785) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:2828) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:61
+        fn = function () { throw arg; };
+                           ^
+
+Error: ENOENT: no such file or directory, unlink '/root/heyboV.github.io/hyb_hexo/source/_drafts/记25岁生日.md'
+    at Object.fs.unlinkSync (fs.js:1081:18)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/update.js:77:12
+    at tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/nodeify.js:22:30)
+    at Promise._settlePromise (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/nodeback.js:42:21
+    at /root/heyboV.github.io/hyb_hexo/node_modules/graceful-fs/graceful-fs.js:99:16
+    at /root/heyboV.github.io/hyb_hexo/node_modules/graceful-fs/graceful-fs.js:43:10
+    at /usr/local/lib/node_modules/hexo/node_modules/graceful-fs/graceful-fs.js:43:10
+    at FSReqWrap.oncomplete (fs.js:149:15)
+(node:3074) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+TypeError: next is not a function
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:323:25
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:146:7
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/root/heyboV.github.io/hyb_hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:125:13)
+    at SendStream.emit (events.js:221:7)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:421:12)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:736:16)
+    at onstat (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:725:14)
+TypeError: next is not a function
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:323:25
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:146:7
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/root/heyboV.github.io/hyb_hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:125:13)
+    at SendStream.emit (events.js:221:7)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:421:12)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:736:16)
+    at onstat (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:725:14)
+FATAL bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+YAMLException: bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+    at generateError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readBlockMapping (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1080:7)
+    at composeNode (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1332:12)
+    at readDocument (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1492:3)
+    at loadDocuments (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at Hexo.yamlHelper (/root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+FATAL bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+YAMLException: bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+    at generateError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readBlockMapping (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1080:7)
+    at composeNode (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1332:12)
+    at readDocument (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1492:3)
+    at loadDocuments (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at Hexo.yamlHelper (/root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+FATAL bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+YAMLException: bad indentation of a mapping entry at line 123, column 3:
+      domain: [oz01vbmmx.bkt.clouddn.com]
+      ^
+    at generateError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readBlockMapping (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1080:7)
+    at composeNode (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1332:12)
+    at readDocument (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1492:3)
+    at loadDocuments (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at Hexo.yamlHelper (/root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+(node:3505) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+FATAL bad indentation of a mapping entry at line 134, column 2:
+     qiniu:
+     ^
+YAMLException: bad indentation of a mapping entry at line 134, column 2:
+     qiniu:
+     ^
+    at generateError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readBlockMapping (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1080:7)
+    at composeNode (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1332:12)
+    at readDocument (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1492:3)
+    at loadDocuments (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/root/heyboV.github.io/hyb_hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at Hexo.yamlHelper (/root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/root/heyboV.github.io/hyb_hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+(node:3856) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:3906) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:3993) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:4065) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+(node:4094) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+TypeError: next is not a function
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:323:25
+    at /root/heyboV.github.io/hyb_hexo/node_modules/hexo-admin-yf/api.js:146:7
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/root/heyboV.github.io/hyb_hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:239:7)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:125:13)
+    at SendStream.emit (events.js:221:7)
+    at SendStream.error (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:421:12)
+    at next (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:736:16)
+    at onstat (/root/heyboV.github.io/hyb_hexo/node_modules/send/index.js:725:14)

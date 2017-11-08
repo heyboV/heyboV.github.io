@@ -4,11 +4,14 @@
 
 # Site
 title: heybo的博客
-subtitle: 这人有点懒~
+subtitle: 胆小不会说只能写
 description: 渣渣一枚。 
 author: heybo
 email: mysphinx@foxmail.com
-keywords: ""
+keywords: "life"
+
+#icon
+avatar: /assets/img/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -118,3 +121,9 @@ admin:
   password_hash: $2a$10$hFzoQpdDFSv4/AQ9HAtPLObtUD2//fR/bHoO5D2ZTQHpDgLhLec5q
   secret: better late than never
   deployCommand: './hexo-deploy.sh'
+
+qiniu:
+  bucket: [hexo]
+  domain: [oz01vbmmx.bkt.clouddn.com]
+  ACCESS_KEY: [Y6tb69HN7QlEjar4YML7K1Houw4GXYdjBIAo1SR1]
+  SECRET_KEY: [YPJtPIMjKt7X_p9IaiplWQ14tfVcpJ4msWkHgfqi] 
