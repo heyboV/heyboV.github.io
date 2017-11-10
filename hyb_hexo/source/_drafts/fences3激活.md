@@ -3,6 +3,7 @@ id: 1510281410880
 author: heybo
 tags:
   - software
+  - blog
 categories: []
 date: 2017-11-10 10:36:00
 ---
